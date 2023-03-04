@@ -14,10 +14,18 @@ body #wall #tag-3.slick.wicked{
 
 
 
-#wall .parent {
+body #wall .parent #tag-5{
     display: none ; 
 }
 
-.parent #tag-4{
+body #wall .parent #tag-4{
     display: none;
+}
+
+body #wall > div {
+  display: none;
+}
+
+body #wall div > #tag-7{
+  display: none;
 }
